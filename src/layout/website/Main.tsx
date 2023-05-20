@@ -1,6 +1,7 @@
 import Area from "../Area";
 import Article from "./Article";
 import Comments from "./Comments";
+import Pricing from "./Pricing";
 
 export default function Main(){
 
@@ -58,6 +59,7 @@ export default function Main(){
         </article>
         <h1 className="text-center text-3xl mt-20 ">Veja o que nossos usuários pensam sobre o <span className=" bg-clip-text   text-transparent  bg-gradient-to-r to-blue-700 via-emerald-500 from-blue-300">SmartConnect</span></h1>
         <Comments/>
+        <Pricing/>
       </Area>
     )
 }
