@@ -6,4 +6,10 @@
     .img {
       @apply  w-[25rem] h-[15rem] border border-zinc-500 rounded-lg bg-cover;
     }
+    .btn{
+      @apply py-1 px-2 flex justify-center items-center bg-blue-600 text-white hover:bg-blue-300  transition-colors rounded-md;
+    }
+    .error{
+      @apply text-red-500  text-xs italic
+    }
   }
