@@ -5,7 +5,7 @@ import Main from './layout/website/Main';
 function App() {
 
   return (
-    <div className=" bg-gradient-to-br from-slate-800  via-slate-900 to-slate-800  h-full from-10% via-40% flex  items-center justify-center flex-col gap-16 ">
+    <div className=" bg-gradient-to-br from-slate-800  via-slate-900 to-slate-800  h-full from-10% via-40% flex  items-center justify-center flex-col gap-10 ">
 
       <Header/>
       <TypeAnimation  
@@ -17,7 +17,7 @@ function App() {
         "Se torne um só com a Tecnologia",
         4000
       ]} 
-      className=" text-5xl text-white p-3 " 
+      className=" text-3xl xl:text-5xl text-white p-3 " 
       repeat={Infinity}
       cursor={true}
       >

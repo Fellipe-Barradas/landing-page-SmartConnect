@@ -8,7 +8,7 @@ export default function Main(){
     return (
       <Area className='flex-1 text-white mt-10 flex flex-col gap-40'>
         <article className={`
-        flex flex-col xl:flex-row  items-center justify-center   gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center  gap-[3rem]
         `} >
             <Article  title="O que é Smart Connect?">    
                 O SmartConnect é um produto tecnológico revolucionário projetado para simplificar a conectividade e aprimorar a comunicação no mundo acelerado de hoje. Com seus recursos de ponta e interface intuitiva, o SmartConnect permite que indivíduos e empresas permaneçam conectados sem esforço, não importa onde estejam.
@@ -17,7 +17,7 @@ export default function Main(){
         </article>
 
         <article className={`
-        flex flex-col  items-center justify-center p-5   gap-[10rem] xl:flex-row-reverse
+        flex flex-col  items-center justify-center p-5   gap-[3rem] xl:flex-row-reverse
         `} >
             <Article 
                 classNameDesc="items-end text-right text-lg"
@@ -28,7 +28,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex flex-col xl:flex-row  items-center justify-center p-5   gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center p-5   gap-[3rem]
         `} >
              <Article 
              title="Conexão compartilhada">    
@@ -38,7 +38,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex flex-col xl:flex-row-reverse items-center justify-center p-5   gap-[10rem]
+        flex flex-col xl:flex-row-reverse items-center justify-center p-5   gap-[3rem]
         `} >
             <Article 
         classNameDesc="items-end text-right text-lg"
@@ -49,7 +49,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex flex-col xl:flex-row  items-center justify-center p-5   gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center p-5  gap-[3rem]
         `} >
         <Article 
         title="Conexões seguras e privadas">    
