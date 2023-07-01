@@ -8,7 +8,7 @@ export default function Main(){
     return (
       <Area className='flex-1 text-white mt-10 flex flex-col gap-40'>
         <article className={`
-        flex p-5 items-center justify-around gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center   gap-[10rem]
         `} >
             <Article  title="O que é Smart Connect?">    
                 O SmartConnect é um produto tecnológico revolucionário projetado para simplificar a conectividade e aprimorar a comunicação no mundo acelerado de hoje. Com seus recursos de ponta e interface intuitiva, o SmartConnect permite que indivíduos e empresas permaneçam conectados sem esforço, não importa onde estejam.
@@ -17,7 +17,7 @@ export default function Main(){
         </article>
 
         <article className={`
-        flex p-5 items-center justify-around gap-[10rem] flex-row-reverse
+        flex flex-col  items-center justify-center p-5   gap-[10rem] xl:flex-row-reverse
         `} >
             <Article 
                 classNameDesc="items-end text-right text-lg"
@@ -28,7 +28,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex p-5 items-center justify-around gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center p-5   gap-[10rem]
         `} >
              <Article 
              title="Conexão compartilhada">    
@@ -38,7 +38,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex p-5 items-center justify-around gap-[10rem] flex-row-reverse
+        flex flex-col xl:flex-row-reverse items-center justify-center p-5   gap-[10rem]
         `} >
             <Article 
         classNameDesc="items-end text-right text-lg"
@@ -49,7 +49,7 @@ export default function Main(){
         </article>
        
         <article className={`
-        flex p-5 items-center justify-around gap-[10rem]
+        flex flex-col xl:flex-row  items-center justify-center p-5   gap-[10rem]
         `} >
         <Article 
         title="Conexões seguras e privadas">    
@@ -57,7 +57,7 @@ export default function Main(){
         </Article>
         <div  aria-label="imagem representativa" className="img bg-[url('./imgs/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg')]" />
         </article>
-        <h1 className="text-center text-3xl mt-20 ">Veja o que nossos usuários pensam sobre o <span className=" bg-clip-text   text-transparent  bg-gradient-to-r to-blue-700 via-emerald-500 from-blue-300">SmartConnect</span></h1>
+        <h1 className="text-center text-2xl mt-20 ">Veja o que nossos usuários pensam sobre o <span className=" bg-clip-text   text-transparent  bg-gradient-to-r to-blue-700 via-emerald-500 from-blue-300">SmartConnect</span></h1>
         <Comments/>
         <Pricing/>
       </Area>
