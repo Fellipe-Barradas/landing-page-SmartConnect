@@ -1,4 +1,4 @@
-import logo from "../..//./imgs/SmartConnectLogo.png"
+import logo from "/imgs/SmartConnectLogo.png"
 import usePrice from "../../data/hooks/usePrice"
 import Prices from "./Prices"
 import Form from "./form/Form"
