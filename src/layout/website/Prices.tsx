@@ -15,7 +15,7 @@ export default function Prices(prop:PricesProp){
     
     
     return (
-        <div className={`border   ${prop.isVIP ? "border-blue-500" : "border-zinc-600 "} p-2 rounded-lg shadow-lg relative flex flex-col w-1/2 m-auto`}  >
+        <div className={`border   ${prop.isVIP ? "border-blue-500" : "border-zinc-600 "} p-2 rounded-lg shadow-lg relative flex flex-col w-1/2 m-auto xl:w-full xl:h-[250px]`}  >
             <div className=" flex justify-between  items-center  mb-5 ">
                 <h1 className={` text-2xl  self-start `}>{prop.title}</h1>
                 <h2 className={`font-extralight text-xl ${prop.isVIP && "text-green-400"} mt-1 `}>{prop.price}</h2>
