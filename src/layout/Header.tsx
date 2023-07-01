@@ -1,5 +1,5 @@
 import Area from "./Area";
-import logo from "/imgs/SmartConnectLogo.png"
+import logo from "/SmartConnectLogo.png"
 
 export default function Header(){
     return(
