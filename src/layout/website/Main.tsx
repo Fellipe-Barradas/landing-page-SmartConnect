@@ -57,7 +57,7 @@ export default function Main(){
         </Article>
         <div  aria-label="imagem representativa" className="img bg-[url('./imgs/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg')]" />
         </article>
-        <h1 className="text-center text-2xl mt-20 ">Veja o que nossos usuários pensam sobre o <span className=" bg-clip-text   text-transparent  bg-gradient-to-r to-blue-700 via-emerald-500 from-blue-300">SmartConnect</span></h1>
+        <h1 className="text-center text-2xl mt-20 md:text-4xl">Veja o que nossos usuários pensam sobre o <span className=" bg-clip-text   text-transparent  bg-gradient-to-r to-blue-700 via-emerald-500 from-blue-300">SmartConnect</span></h1>
         <Comments/>
         <Pricing/>
       </Area>

@@ -17,7 +17,7 @@ function App() {
         "Se torne um só com a Tecnologia",
         4000
       ]} 
-      className=" text-3xl xl:text-5xl text-white p-3 " 
+      className=" text-3xl md:text-4xl xl:text-5xl text-white p-3 " 
       repeat={Infinity}
       cursor={true}
       >
